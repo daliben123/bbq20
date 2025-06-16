@@ -1,10 +1,10 @@
 # Copyright (c) 2023 ZitaoTech
 # SPDX-License-Identifier: MIT
 
-if BOARD_BB9900
+if BOARD_BBQ20
 
 config ZMK_KEYBOARD_NAME
-    default "bb9900"
+    default "bbq20"
 
 if USB_DEVICE_STACK
 
@@ -26,4 +26,4 @@ endif # ZMK_BACKLIGHT
 config BT_CTLR
     default BT
 
-endif # BOARD_BB9900
+endif # BOARD_BBQ20
