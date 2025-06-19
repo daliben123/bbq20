@@ -2,12 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: daliben123
-      url-base: https://github.com/daliben123
+    - name: ZitaoTech
+      url-base: https://github.com/ZitaoTech
   projects:
     - name: zmk
-      remote: daliben123
-      revision: main
+      remote: ZitaoTech
+      revision: bbkeyboard_tp
       import: app/west.yml
   self:
     path: config
