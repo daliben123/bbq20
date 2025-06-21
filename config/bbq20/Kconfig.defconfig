@@ -26,4 +26,12 @@ endif # ZMK_BACKLIGHT
 config BT_CTLR
     default BT
 
+config ZMK_STUDIO
+    bool "Enable ZMK Studio support"
+    default y
+
+config ZMK_PM_SOFT_OFF
+    bool "Enable soft power-off feature"
+    default y
+
 endif # BOARD_BBQ20
