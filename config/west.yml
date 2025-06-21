@@ -1,13 +1,12 @@
-manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name:daliben123
-      url-base: https://github.com/daliben123
-  projects:
-    - name: zmk
-      remote: daliben123
-      revision: main
-      import: app/west.yml
-  self:
-    path: config
+remotes:
+  - name: zmkfirmware
+    url-base: https://github.com/zmkfirmware
+  - name: daliben123  # 修正：添加了空格
+    url-base: https://github.com/daliben123
+projects:
+  - name: zmk
+    remote: daliben123
+    revision: main
+    import: app/west.yml
+self:
+  path: config
