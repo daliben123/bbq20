@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: daliben123
-      revision: main
+      revision: bbkb-tp
       import: app/west.yml
   self:
     path: config
