@@ -13,4 +13,5 @@
 ---
 include:
   - board: bbq20
-    snipppet：studio-rpc-usb-uart
+    snipppet: studio-rpc-usb-uart
+
